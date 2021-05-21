@@ -25,7 +25,8 @@ python -m pip install django-cors-headers
 ### Steps to connect React in Django 
 * Go to Settings.py
 * Add rest_framework ,app_name, corsheaders  to INSTALLED APPS like this
-```'rest_framework',
+```
+'rest_framework',
     'diary',
     'corsheaders']
  ```
