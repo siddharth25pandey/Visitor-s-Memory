@@ -30,7 +30,8 @@ python -m pip install django-cors-headers
     'corsheaders']
  ```
 * Add Add corsheaders.middleware.CorsMiddleware to MIDDLEWARE list like this
-```'corsheaders.middleware.CorsMiddleware',
+```
+'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',]
 ```
 * Create a Dictionary of REST_FRAMEWORK like this
@@ -41,13 +42,15 @@ REST_FRAMEWORK = {
 ```
 
 * Now migrate the created models using 
-```python manage.py makemigrations 
+```
+python manage.py makemigrations 
 python manage.py migrate
 python manage.py runserver 1000
 ```
 
 * You can view the Backend Part (DjangoRest Framework) on Port Number
-```http://localhost:1000/
+```
+http://localhost:1000/
 http://localhost:1000/visitor_page/
 ```
 
