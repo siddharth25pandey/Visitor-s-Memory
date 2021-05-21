@@ -7,7 +7,7 @@
 * Django is commonly  used for creating full fledge (Back End Part)
 
 ## Glimpse of this Project
-![home](https://github.com/siddharth25pandey/Visitor-s-Memory/blob/main/home.PNG)
+![home](https://github.com/siddharth25pandey/Visitor-s-Memory/blob/master/home.PNG)
 
 ## Prerequisites:
 * Python3, NPM Installed
