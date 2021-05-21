@@ -7,7 +7,7 @@
 * Django is commonly  used for creating full fledge (Back End Part)
 
 ## Glimpse of this Project
-![home](https://github.com/siddharth25pandey/Visitor-s-Memory/blob/main/home.PNG)
+![home](https://github.com/siddharth25pandey/Visitor-s-Memory/blob/master/home.PNG)
 
 ## Prerequisites:
 * Python3, NPM Installed
@@ -30,7 +30,8 @@ python -m pip install django-cors-headers
     'corsheaders']
  ```
 * Add Add corsheaders.middleware.CorsMiddleware to MIDDLEWARE list like this
-```'corsheaders.middleware.CorsMiddleware',
+```
+'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',]
 ```
 * Create a Dictionary of REST_FRAMEWORK like this
@@ -40,14 +41,18 @@ REST_FRAMEWORK = {
 }
 ```
 
+* serializer.py: Create serializer.py inside the App folder. Here is the serializer for model React. Serializers are basically used to convert complex data to native Python datatypes that can then be easily rendered into JSON(Which we are going to use in React i.e. Client side). 
+
 * Now migrate the created models using 
-```python manage.py makemigrations 
+```
+python manage.py makemigrations 
 python manage.py migrate
 python manage.py runserver 1000
 ```
 
 * You can view the Backend Part (DjangoRest Framework) on Port Number
-```http://localhost:1000/
+```
+http://localhost:1000/
 http://localhost:1000/visitor_page/
 ```
 
